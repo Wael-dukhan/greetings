@@ -6,6 +6,7 @@ echo get_string('greetingloggedinuser', 'local_greetings', fullname($USER));
 echo local_greetings_get_greeting($USER);
 
 echo get_string('sayhello', 'local_greetings');
+echo $CFG->libdir;
 // function local_greetings_extend_navigation_frontpage(navigation_node $frontpage) {
 //     $frontpage->add(
 //         get_string('pluginname', 'local_greetings'),
